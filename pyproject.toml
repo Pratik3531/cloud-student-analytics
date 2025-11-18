@@ -1,0 +1,11 @@
+[project]
+name = "cloud-student-analytics"
+version = "1.0.0"
+description = "Cloud Student Analytics API"
+
+[tool.pdm.dev-dependencies]
+fastapi = "*"
+uvicorn = "*"
+xgboost = "*"
+pandas = "*"
+numpy = "*"
